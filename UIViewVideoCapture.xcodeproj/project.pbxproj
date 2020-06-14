@@ -10,6 +10,9 @@
 		2C10772C2496A40100BDB3B8 /* UIViewVideoCapture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1077222496A40100BDB3B8 /* UIViewVideoCapture.framework */; };
 		2C1077312496A40100BDB3B8 /* UIViewVideoCaptureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1077302496A40100BDB3B8 /* UIViewVideoCaptureTests.swift */; };
 		2C1077332496A40100BDB3B8 /* UIViewVideoCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C1077252496A40100BDB3B8 /* UIViewVideoCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C10773D2496A45900BDB3B8 /* UIRecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C10773C2496A45900BDB3B8 /* UIRecorderView.swift */; };
+		2C10773F2496A4A300BDB3B8 /* UIRecorderWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C10773E2496A4A300BDB3B8 /* UIRecorderWriter.swift */; };
+		2C1077412496A66800BDB3B8 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1077402496A66800BDB3B8 /* Util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		2C10772B2496A40100BDB3B8 /* UIViewVideoCaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIViewVideoCaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1077302496A40100BDB3B8 /* UIViewVideoCaptureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewVideoCaptureTests.swift; sourceTree = "<group>"; };
 		2C1077322496A40100BDB3B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C10773C2496A45900BDB3B8 /* UIRecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRecorderView.swift; sourceTree = "<group>"; };
+		2C10773E2496A4A300BDB3B8 /* UIRecorderWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRecorderWriter.swift; sourceTree = "<group>"; };
+		2C1077402496A66800BDB3B8 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,9 @@
 			children = (
 				2C1077252496A40100BDB3B8 /* UIViewVideoCapture.h */,
 				2C1077262496A40100BDB3B8 /* Info.plist */,
+				2C10773C2496A45900BDB3B8 /* UIRecorderView.swift */,
+				2C10773E2496A4A300BDB3B8 /* UIRecorderWriter.swift */,
+				2C1077402496A66800BDB3B8 /* Util.swift */,
 			);
 			path = UIViewVideoCapture;
 			sourceTree = "<group>";
@@ -148,6 +157,7 @@
 				TargetAttributes = {
 					2C1077212496A40100BDB3B8 = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 					2C10772A2496A40100BDB3B8 = {
 						CreatedOnToolsVersion = 11.4;
@@ -195,6 +205,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C10773F2496A4A300BDB3B8 /* UIRecorderWriter.swift in Sources */,
+				2C1077412496A66800BDB3B8 /* Util.swift in Sources */,
+				2C10773D2496A45900BDB3B8 /* UIRecorderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +353,7 @@
 		2C1077372496A40100BDB3B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = G953M8N553;
@@ -356,6 +370,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sparkle.sparkle.UIViewVideoCapture;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +379,7 @@
 		2C1077382496A40100BDB3B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = G953M8N553;
@@ -388,6 +404,7 @@
 		2C10773A2496A40100BDB3B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G953M8N553;
 				INFOPLIST_FILE = UIViewVideoCaptureTests/Info.plist;
@@ -406,6 +423,7 @@
 		2C10773B2496A40100BDB3B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G953M8N553;
 				INFOPLIST_FILE = UIViewVideoCaptureTests/Info.plist;
