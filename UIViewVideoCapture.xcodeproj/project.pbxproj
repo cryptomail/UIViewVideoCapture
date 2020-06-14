@@ -13,6 +13,7 @@
 		2C10773D2496A45900BDB3B8 /* UIRecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C10773C2496A45900BDB3B8 /* UIRecorderView.swift */; };
 		2C10773F2496A4A300BDB3B8 /* UIRecorderWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C10773E2496A4A300BDB3B8 /* UIRecorderWriter.swift */; };
 		2C1077412496A66800BDB3B8 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1077402496A66800BDB3B8 /* Util.swift */; };
+		2C1077452496B2E500BDB3B8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2C1077442496B2E500BDB3B8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		2C10773C2496A45900BDB3B8 /* UIRecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRecorderView.swift; sourceTree = "<group>"; };
 		2C10773E2496A4A300BDB3B8 /* UIRecorderWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRecorderWriter.swift; sourceTree = "<group>"; };
 		2C1077402496A66800BDB3B8 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		2C1077442496B2E500BDB3B8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		2C1077182496A40100BDB3B8 = {
 			isa = PBXGroup;
 			children = (
+				2C1077442496B2E500BDB3B8 /* README.md */,
 				2C1077242496A40100BDB3B8 /* UIViewVideoCapture */,
 				2C10772F2496A40100BDB3B8 /* UIViewVideoCaptureTests */,
 				2C1077232496A40100BDB3B8 /* Products */,
@@ -188,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1077452496B2E500BDB3B8 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
