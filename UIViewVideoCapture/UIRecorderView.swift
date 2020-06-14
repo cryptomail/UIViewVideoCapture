@@ -1,6 +1,5 @@
 //
 //  UIRecorderView.swift
-//  SparkleSend
 //
 //  Created by Joshua Teitelbaum on 6/13/20.
 //  Copyright © 2020 sparklesparklesparkle. All rights reserved.
