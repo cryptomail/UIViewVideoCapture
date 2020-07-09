@@ -3,12 +3,12 @@ import UIKit
 import AVFoundation
 import Photos
 
-protocol UIRecorderViewEvents {
+public protocol UIRecorderViewEvents {
     func doneRecordingView(url:NSURL)
     func errorRecording(errorString:String)
 }
 
-class UIRecorderWriter {
+public class UIRecorderWriter {
     var uiImageBuffer:[UIImage] = []
     var startDate:NSDate = NSDate()
     var endDate:NSDate?
@@ -16,19 +16,19 @@ class UIRecorderWriter {
     var size:CGSize?
     var events:UIRecorderViewEvents
     
-    init(events:UIRecorderViewEvents) {
+    public init(events:UIRecorderViewEvents) {
         self.events = events
     }
     func write(img:UIImage) {
         uiImageBuffer.append(img)
     }
-    func writeVideoFromImageFrames(saveToVideoLibrary:Bool) {
+    public func writeVideoFromImageFrames(saveToVideoLibrary:Bool) {
         /*
          work it 🚧
          */
         build(outputSize: size!, saveToVideoLibrary: saveToVideoLibrary)
     }
-    func build(outputSize: CGSize, saveToVideoLibrary:Bool) {
+    public func build(outputSize: CGSize, saveToVideoLibrary:Bool) {
         let fileManager = FileManager.default
         let urls = fileManager.urls(for: .cachesDirectory, in: .userDomainMask)
         guard let documentDirectory = urls.first else {

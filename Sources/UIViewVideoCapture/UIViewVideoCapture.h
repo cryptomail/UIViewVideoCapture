@@ -16,4 +16,6 @@ FOUNDATION_EXPORT const unsigned char UIViewVideoCaptureVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <UIViewVideoCapture/PublicHeader.h>
 
-
+@class UIRecorderView;
+@class UIRecorderWriter;
+@class UIRecorderViewEvents;
