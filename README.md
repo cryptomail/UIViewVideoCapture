@@ -6,5 +6,5 @@ Hey y'all for now:
 2. Build away
 
 ## TODO
-1. Make proper library so you can point to GitHub
+1. Address some improper memory issues
 2. Patches welcome ☝️
