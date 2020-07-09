@@ -12,7 +12,7 @@ import Photos
 
 let FPS = 24.0
 
-class UIRecorderView {
+public class UIRecorderView {
     var writer:UIRecorderWriter!
     var events:UIRecorderViewEvents
     let queue = DispatchQueue.global(qos: .utility)
@@ -23,7 +23,7 @@ class UIRecorderView {
     /**
      Initialization: Input view you want to capture, and the event listener that will let you know: completion or failboat :)
      */
-    init(view:UIView, events:UIRecorderViewEvents, saveToVideoLibrary:Bool) {
+    public init(view:UIView, events:UIRecorderViewEvents, saveToVideoLibrary:Bool) {
         writer = UIRecorderWriter(events:events)
         self.events = events
         self.view = view
@@ -42,7 +42,7 @@ class UIRecorderView {
     /**
      startRecordingView: 🟢
      */
-    func startRecordingView() {
+    public func startRecordingView() {
         writer.startDate = NSDate()
         writer.size = view.frame.size
         timer = DispatchSource.makeTimerSource(queue: queue)
@@ -58,7 +58,7 @@ class UIRecorderView {
     /**
      stopRecordingView:  🛑
      */
-    func stopRecordingView() {
+    public func stopRecordingView() {
         timer!.cancel()
         writer.endDate = NSDate()
         writer.writeVideoFromImageFrames(saveToVideoLibrary: saveToVideoLibrary)
