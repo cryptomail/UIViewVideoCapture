@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2C10772C2496A40100BDB3B8 /* UIViewVideoCapture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1077222496A40100BDB3B8 /* UIViewVideoCapture.framework */; };
-		2C1077312496A40100BDB3B8 /* UIViewVideoCaptureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1077302496A40100BDB3B8 /* UIViewVideoCaptureTests.swift */; };
-		2C1077332496A40100BDB3B8 /* UIViewVideoCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C1077252496A40100BDB3B8 /* UIViewVideoCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C10773D2496A45900BDB3B8 /* UIRecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C10773C2496A45900BDB3B8 /* UIRecorderView.swift */; };
-		2C10773F2496A4A300BDB3B8 /* UIRecorderWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C10773E2496A4A300BDB3B8 /* UIRecorderWriter.swift */; };
-		2C1077412496A66800BDB3B8 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1077402496A66800BDB3B8 /* Util.swift */; };
-		2C1077452496B2E500BDB3B8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2C1077442496B2E500BDB3B8 /* README.md */; };
+		BA652B9224B6DF0F00FFB6C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA652B9124B6DF0F00FFB6C2 /* UIKit.framework */; };
+		BA652BD124B6E30900FFB6C2 /* UIViewVideoCaptureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA652BCE24B6E30900FFB6C2 /* UIViewVideoCaptureTests.swift */; };
+		BA652BD224B6E30900FFB6C2 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA652BCF24B6E30900FFB6C2 /* XCTestManifests.swift */; };
+		BA652BD324B6E30900FFB6C2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA652BD024B6E30900FFB6C2 /* Info.plist */; };
+		BA652BDA24B6E31900FFB6C2 /* UIRecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA652BD524B6E31900FFB6C2 /* UIRecorderView.swift */; };
+		BA652BDB24B6E31900FFB6C2 /* UIRecorderWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA652BD624B6E31900FFB6C2 /* UIRecorderWriter.swift */; };
+		BA652BDC24B6E31900FFB6C2 /* UIViewVideoCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = BA652BD724B6E31900FFB6C2 /* UIViewVideoCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA652BDD24B6E31900FFB6C2 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA652BD824B6E31900FFB6C2 /* Util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,15 +30,17 @@
 
 /* Begin PBXFileReference section */
 		2C1077222496A40100BDB3B8 /* UIViewVideoCapture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIViewVideoCapture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C1077252496A40100BDB3B8 /* UIViewVideoCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewVideoCapture.h; sourceTree = "<group>"; };
-		2C1077262496A40100BDB3B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C10772B2496A40100BDB3B8 /* UIViewVideoCaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIViewVideoCaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C1077302496A40100BDB3B8 /* UIViewVideoCaptureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewVideoCaptureTests.swift; sourceTree = "<group>"; };
-		2C1077322496A40100BDB3B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C10773C2496A45900BDB3B8 /* UIRecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRecorderView.swift; sourceTree = "<group>"; };
-		2C10773E2496A4A300BDB3B8 /* UIRecorderWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRecorderWriter.swift; sourceTree = "<group>"; };
-		2C1077402496A66800BDB3B8 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		2C1077442496B2E500BDB3B8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BA652B9124B6DF0F00FFB6C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BA652BCE24B6E30900FFB6C2 /* UIViewVideoCaptureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewVideoCaptureTests.swift; sourceTree = "<group>"; };
+		BA652BCF24B6E30900FFB6C2 /* XCTestManifests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		BA652BD024B6E30900FFB6C2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA652BD524B6E31900FFB6C2 /* UIRecorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIRecorderView.swift; sourceTree = "<group>"; };
+		BA652BD624B6E31900FFB6C2 /* UIRecorderWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIRecorderWriter.swift; sourceTree = "<group>"; };
+		BA652BD724B6E31900FFB6C2 /* UIViewVideoCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewVideoCapture.h; sourceTree = "<group>"; };
+		BA652BD824B6E31900FFB6C2 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		BA652BD924B6E31900FFB6C2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA652B9224B6DF0F00FFB6C2 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,9 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				2C1077442496B2E500BDB3B8 /* README.md */,
-				2C1077242496A40100BDB3B8 /* UIViewVideoCapture */,
-				2C10772F2496A40100BDB3B8 /* UIViewVideoCaptureTests */,
+				BA652BD424B6E31900FFB6C2 /* UIViewVideoCapture */,
+				BA652BCD24B6E30900FFB6C2 /* UIViewVideoCaptureTests */,
 				2C1077232496A40100BDB3B8 /* Products */,
+				BA652B9024B6DF0F00FFB6C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,25 +83,36 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C1077242496A40100BDB3B8 /* UIViewVideoCapture */ = {
+		BA652B9024B6DF0F00FFB6C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2C1077252496A40100BDB3B8 /* UIViewVideoCapture.h */,
-				2C1077262496A40100BDB3B8 /* Info.plist */,
-				2C10773C2496A45900BDB3B8 /* UIRecorderView.swift */,
-				2C10773E2496A4A300BDB3B8 /* UIRecorderWriter.swift */,
-				2C1077402496A66800BDB3B8 /* Util.swift */,
+				BA652B9124B6DF0F00FFB6C2 /* UIKit.framework */,
 			);
-			path = UIViewVideoCapture;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2C10772F2496A40100BDB3B8 /* UIViewVideoCaptureTests */ = {
+		BA652BCD24B6E30900FFB6C2 /* UIViewVideoCaptureTests */ = {
 			isa = PBXGroup;
 			children = (
-				2C1077302496A40100BDB3B8 /* UIViewVideoCaptureTests.swift */,
-				2C1077322496A40100BDB3B8 /* Info.plist */,
+				BA652BCE24B6E30900FFB6C2 /* UIViewVideoCaptureTests.swift */,
+				BA652BCF24B6E30900FFB6C2 /* XCTestManifests.swift */,
+				BA652BD024B6E30900FFB6C2 /* Info.plist */,
 			);
-			path = UIViewVideoCaptureTests;
+			name = UIViewVideoCaptureTests;
+			path = Tests/UIViewVideoCaptureTests;
+			sourceTree = "<group>";
+		};
+		BA652BD424B6E31900FFB6C2 /* UIViewVideoCapture */ = {
+			isa = PBXGroup;
+			children = (
+				BA652BD524B6E31900FFB6C2 /* UIRecorderView.swift */,
+				BA652BD624B6E31900FFB6C2 /* UIRecorderWriter.swift */,
+				BA652BD724B6E31900FFB6C2 /* UIViewVideoCapture.h */,
+				BA652BD824B6E31900FFB6C2 /* Util.swift */,
+				BA652BD924B6E31900FFB6C2 /* Info.plist */,
+			);
+			name = UIViewVideoCapture;
+			path = Sources/UIViewVideoCapture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +122,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C1077332496A40100BDB3B8 /* UIViewVideoCapture.h in Headers */,
+				BA652BDC24B6E31900FFB6C2 /* UIViewVideoCapture.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,7 +208,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C1077452496B2E500BDB3B8 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA652BD324B6E30900FFB6C2 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,9 +226,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C10773F2496A4A300BDB3B8 /* UIRecorderWriter.swift in Sources */,
-				2C1077412496A66800BDB3B8 /* Util.swift in Sources */,
-				2C10773D2496A45900BDB3B8 /* UIRecorderView.swift in Sources */,
+				BA652BDB24B6E31900FFB6C2 /* UIRecorderWriter.swift in Sources */,
+				BA652BDD24B6E31900FFB6C2 /* Util.swift in Sources */,
+				BA652BDA24B6E31900FFB6C2 /* UIRecorderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +236,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C1077312496A40100BDB3B8 /* UIViewVideoCaptureTests.swift in Sources */,
+				BA652BD124B6E30900FFB6C2 /* UIViewVideoCaptureTests.swift in Sources */,
+				BA652BD224B6E30900FFB6C2 /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = UIViewVideoCapture/info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -342,6 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = UIViewVideoCapture/info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -360,11 +380,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = G953M8N553;
+				DEVELOPMENT_TEAM = G77377FDSZ;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = UIViewVideoCapture/Info.plist;
+				INFOPLIST_FILE = Sources/UIViewVideoCapture/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -386,11 +406,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = G953M8N553;
+				DEVELOPMENT_TEAM = G77377FDSZ;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = UIViewVideoCapture/Info.plist;
+				INFOPLIST_FILE = Sources/UIViewVideoCapture/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -411,7 +431,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G953M8N553;
-				INFOPLIST_FILE = UIViewVideoCaptureTests/Info.plist;
+				INFOPLIST_FILE = Tests/UIViewVideoCaptureTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -430,7 +450,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G953M8N553;
-				INFOPLIST_FILE = UIViewVideoCaptureTests/Info.plist;
+				INFOPLIST_FILE = Tests/UIViewVideoCaptureTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
