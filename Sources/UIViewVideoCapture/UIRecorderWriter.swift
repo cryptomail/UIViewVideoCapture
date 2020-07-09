@@ -26,8 +26,13 @@ public class UIRecorderWriter {
         /*
          work it 🚧
          */
-        build(outputSize: size!, saveToVideoLibrary: saveToVideoLibrary)
+        if #available(iOS 11.0, *) {
+            build(outputSize: size!, saveToVideoLibrary: saveToVideoLibrary)
+        } else {
+            // Fallback on earlier versions
+        }
     }
+    @available(iOS 11.0, *)
     public func build(outputSize: CGSize, saveToVideoLibrary:Bool) {
         let fileManager = FileManager.default
         let urls = fileManager.urls(for: .cachesDirectory, in: .userDomainMask)
